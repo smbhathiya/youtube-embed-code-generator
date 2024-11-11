@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# YouTube Embed Code Generator
 
-## Getting Started
+This project is a simple YouTube embed code generator built using React and the Plyr.js library. It allows users to input a YouTube URL, generate an embed code with the Plyr video player, and copy the generated embed code for use on their websites.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Input a YouTube URL.
+- Automatically extracts the video ID from the URL.
+- Generates a custom YouTube embed code using the Plyr.js player.
+- Ability to copy the generated embed code to the clipboard with a single click.
+- Modern and clean UI using Tailwind CSS for styling.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Ensure that you have the following installed on your machine:
 
-## Learn More
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [npm](https://npmjs.com) (Node Package Manager)
 
-To learn more about Next.js, take a look at the following resources:
+### Steps to Install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/your-username/youtube-embed-code-generator.git
